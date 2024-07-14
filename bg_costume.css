@@ -1,0 +1,23 @@
+body {
+  background-image: url("img/f1.jpg");
+  background-position: center; /* Posisi background di tengah */
+  background-size: cover; /* Ukuran background menutupi seluruh elemen */
+  background-repeat: no-repeat; /* Background tidak diulang */
+  background-attachment: fixed;
+}
+
+.border {
+  /*border kotak*/
+  width: 400px;
+  height: 500px;
+  background-color: transparent;
+  margin: 10vh auto;
+  border-radius: 20px;
+  margin-left: 70vh;
+  /*isi border*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
